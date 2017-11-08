@@ -22,6 +22,6 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
         cprint ("test_divide passed", "white", "on_green")
     def test_carat(self):
-        result = rpn.calculate("2 1 ^")
-        self.asserEqual(2, result)
+        result = rpn.calculate("2 2 ^")
+        self.asserEqual(4, result)
         cprint ("test_carat passed", "white", "on_green")
