@@ -32,6 +32,10 @@ def main():
     while True:
         result = calculate(input("rpn calc> "))
         print("Result: ", result)
+        if 0 == 1:
+            print("I FUCKING HATE LIFE!")
+            
+            
 
 if __name__ == '__main__':
     main()
